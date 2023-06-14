@@ -12,6 +12,7 @@
 }
 
 .navbar {
+    width:100%;
     background-color: rgb(54, 75, 108);
 }
 .navbar ul{
@@ -29,6 +30,7 @@
 
 /*   navigation bar*/
 .navigation{
+    width: 40%;
     display: flex;
     align-items: row;
     justify-content: space-around;
@@ -184,8 +186,11 @@
 
 /*contact section*/
 
-.contact-links a img{
-    align-items: center;
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: center; */
     margin: 10%;
 }
 
@@ -202,24 +207,6 @@
     
 }
 
-
-input{
-    /* width :350px; */
-    background-color: rgb(92, 99, 96);
-    font-size: 20px;
-    color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.inputs{
-    /* font-size: 18px; */
-    color: aliceblue;
-    /* width:30%; */
-    /* padding-bottom:10%; */
-}
-
-
 .contact-list h{ 
     color: #11ee5f;
     text-shadow:  0px 20px 8px  #11ee5f;
@@ -231,19 +218,13 @@ input{
 }
 .message p{
     font-size: 30px;
+    text-align:justify;
     
 }
 
-button{
-    color: #11ee5f;
-    padding: 10%;
-    border: 2px solid#11ee5f;
-    border-radius: 25%;
-    cursor: pointer;
-}
 .message{
-    width:70%;
-    padding: 0 10% 0 10%;
+    width:100%;
+    /* padding: 0 10% 0 10%; */
 }
 .links{
     display: flex;
