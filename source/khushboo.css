@@ -85,7 +85,7 @@
 .about-detail h{
     color: #11ee5f;
     text-shadow:  0px 20px 8px  #11ee5f;
-    font-size: 40px;
+    font-size: 50px;
 }
 .about-detail p{
     color:aliceblue;
@@ -104,7 +104,7 @@
 .skill-head h{
     color: #11ee5f;
     text-shadow:  0px 20px 8px  #11ee5f;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -133,7 +133,7 @@
 }
 .s2 li{
     /* width:100%; */
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 5%;
 }
 .work-list{
@@ -152,7 +152,8 @@
 .work-detail h{
     color: #11ee5f;
     text-shadow:  0px 20px 8px  #11ee5f;
-    font-size: 40px;
+    /* padding-bottom: 5%; */
+    font-size: 50px;
 }
 .work-detail p{
     color:aliceblue;
@@ -161,7 +162,7 @@
 
 
 .project1{
-    margin: 0px 5% 0% 5%;
+    /* margin: 5% 0% 5% 0%; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -219,7 +220,7 @@
 .contact-list h{ 
     color: #11ee5f;
     text-shadow:  0px 20px 8px  #11ee5f;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 4%;
     display: flex;
     flex-direction: center;
